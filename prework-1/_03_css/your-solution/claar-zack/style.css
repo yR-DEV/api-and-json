@@ -2,18 +2,20 @@
 {
 	background: yellow;
 }
+
 #cool
 {
-	background: blue;
+	background: orange;
 }
+
 #column1
 {
 	float:left;
-	width: 50%;
+	width: 500px;
 }
+
 #column2
 {
 	float: right;
-	width: 50%;
-
+	width: 400px;
 }
