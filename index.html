@@ -13,136 +13,97 @@
           <h1 class="title">Psychic Pizza!</h1>
           <h2 class="slogan">"Delivered before you even know you want it"<h2>
         </header>
+
         <form method="get">
+
             <table>
+
                 <thead>
-                    MAKE PIZZA
+                    Create Your Pizza:
                 </thead>
+
                 <tr>
                     <td>
-                        <label for="pickup">
-                            <input type="radio" name="pickup">Pickup</input>
-                            <input type="radio" name="pickup" checked>Delivery</input>
-                        </label>
+                        <table>
+                            <thead>
+                                What Size?
+                            </thead>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="size">Small</input><br>
+                                    <input type="radio" name="size">Medium</input><br>
+                                    <input type="radio" name="size" checked>Large</input>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <thead>
+                                What Sauce?
+                            </thead>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="sauce">Robust Tomato</input><br>
+                                    <input type="radio" name="sauce">Spicy BBQ</input><br>
+                                    <input type="radio" name="sauce" disabled>Creamy Cream</input>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
+
                 <tr>
                     <td>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" placeholder="John Doe">
+                        <table>
+                            <thead>
+                                Meat?
+                            </thead>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="sausage">Sausage</input><br>
+                                    <input type="checkbox" name="pepperoni">Pepperoni</input><br>
+                                    <input type="checkbox" name="bacon">Bacon</input><br>
+                                    <input type="checkbox" name="salami">Salami</input><br>
+                                    <input type="checkbox" name="ham">Ham</input><br>
+                                    <input type="checkbox" name="chicken">Chicken</input>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                     <td>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="jdoe@google.com">
+                        <table>
+                            <thead>
+                                Other Stuff
+                            </thead>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="feta">Feta Cheese</input><br>
+                                    <input type="checkbox" name="bPeppers">Banana Peppers</input><br>
+                                    <input type="checkbox" name="jPeppers">Jalape&ntilde;o Peppers</input><br>
+                                    <input type="checkbox" name="onions">Onions</input><br>
+                                    <input type="checkbox" name="olives">Olives</input><br>
+                                    <input type="checkbox" name="pineapple">Pineapple</input><br>
+                                    <input type="checkbox" name="mushrooms">Mushrooms</input>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <thead>
+                                Extras
+                            </thead>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="extraCheese">extra cheese</input><br>
+                                    <input type="checkbox" name="breadsticks">breadsticks</input><br>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <label for="phone">Phone:</label>
-                        <input type="text" name="phone" placeholder="123-456-7890">
-                    </td>
-                    <td>
-                        <label for="notes">Notes for deliverer:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="street1">Address:</label>
-                        <input type="text" name="street1" placeholder="123 Any St.">
-                    </td>
-                    <td rowspan="2">
-                        <textarea name="notes" placeholder="Draw a dinosaur on my pizza box."></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text" name="street2" placeholder="Apt. 69">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="city">City:
-                            <input type="text" name="city" placeholder="Denver">
-                        </label>
-                    </td>
-                    <td>
-                        <label for="state">State:
-                            <input type="text" name="state" placeholder="CO">
-                        </label>
-                    </td>
-                    <td>
-                        <label for="zipcode">Zipcode:
-                            <input type="text" name="zipcode" placeholder="80000">
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="size">Size:
-                            <input type="radio" name="size">Small</input><br>
-                            <input type="radio" name="size">Medium</input><br>
-                            <input type="radio" name="size" checked>Large</input><br>
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="sauce">Sauce:
-                            <input type="radio" name="sauce">Robust Tomato</input><br>
-                            <input type="radio" name="sauce">Spicy BBQ</input><br>
-                            <input type="radio" name="sauce" disabled>Creamy Cream</input><br>
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Meats:</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="sausage">Sausage</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="pepperoni">Pepperoni</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="bacon">Bacon</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="salami">Salami</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="ham">Ham</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="chicken">Chicken</input>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Veggies and Stuff:</label>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="feta">Feta Cheese</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="bPeppers">Banana Peppers</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="jPeppers">Jalape&ntilde;o Peppers</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="onions">Onions</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="olives">Olives</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="pineapple">Pineapple</input>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="mushrooms">Mushrooms</input>
-                    </td>
-                </tr>
+
             </table>
 
             <button type="submit" name="button">ORDER PIZZA</button>
