@@ -6,6 +6,74 @@
         <link rel="stylesheet" href="css/css.css">
     </head>
     <body>
+        <form method="get">
+            <table>
+                <thead>
+                    MAKE YOUR PIZZA
+                </thead>
+                <tr>
+                    <td>
+                        <label for="pickup">
+                            <input type="checkbox" name="pickup" value="">
+                            Pickup
+                        </label>
+                        <label for="delivery">
+                            <input type="checkbox" name="delivery" checked>
+                            Delivery
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="John Doe">
+                    </td>
+                    <td>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="jdoe@google.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone:</label>
+                        <input type="text" name="phone" placeholder="123-456-7890">
+                    </td>
+                    <td>
+                        <label for="notes">Notes for deliverer:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="street1">Address:</label>
+                        <input type="text" name="street1" placeholder="123 Any St.">
+                    </td>
+                    <td rowspan="3">
+                        <textarea name="notes" placeholder="Draw a dinosaur on my pizza box."></textarea>
+                    </td>
+                <tr>
+                    <td>
+                        <input type="text" name="street2" placeholder="Apt. 69">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City:
+                            <input type="text" name="city" placeholder="Denver">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="state">State:
+                            <input type="text" name="state" placeholder="CO">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="zipcode">Zipcode:
+                            <input type="text" name="zipcode" placeholder="80000">
+                        </label>
+                    </td>
+                </tr>
+            </table>
 
+        </form>
     </body>
 </html>
