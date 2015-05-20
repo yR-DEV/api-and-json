@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: #FFF0B2;
+  margin:0 auto;
+  width: 1000px;
+}
+
+header {
+  font-family: cursive;
+  background-color: #803300;
+  width: 200%;
+  height: 150%;
+  padding: 0 200px;
+  position: relative;
+  right: 400px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: auto;
+  padding: 0 10px;
+  font-size: 300%;
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.slogan {
+  margin: auto;
+  padding: 0 100px;
+  font-size: 90%;
+  color: white;
+  text-shadow: -1px 0 #FF6600, 0 2px #FF6600, 2px 0 #FF6600, 0 -1px #FF6600;
+}
